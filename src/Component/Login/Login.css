@@ -1,0 +1,98 @@
+.viewRoot {
+  min-height: 100vh;
+  text-align: center;
+  flex-direction: column;
+  position: relative;
+  background-image: url("../../images/chat.jpg");
+  background-size: cover;
+}
+
+.viewLoading {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header.login-page {
+  font-family: "Pacifico", cursive;
+  font-weight: bold;
+  font-size: 30px;
+  height: 70px;
+  padding: 0;
+  padding-top: 12px;
+  color: #203152;
+  background: #eecda3; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ef629f,
+    #eecda3
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ef629f,
+    #eecda3
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.24);
+}
+
+.status {
+  font-size: 20px;
+  color: #203152;
+  text-align: center;
+  margin-top: 30px;
+  font-style: italic;
+}
+
+/* Button login */
+
+.btnLogin {
+  border: none;
+  color: white;
+  padding: 20px;
+  padding-right: 80px;
+  width: 400px;
+  text-align: right;
+  font-size: 20px;
+  align-self: center;
+  border-radius: 8px;
+  font-weight: bold;
+  outline: 0;
+  cursor: pointer;
+  position: absolute;
+  top: 170px;
+  left: calc(50% - 200px);
+  background: #00c6ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #0072ff,
+    #00c6ff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #0072ff,
+    #00c6ff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.btnLogin:active {
+  opacity: 0.5;
+}
+
+.btnLogin:focus {
+  outline: 0;
+}
+
+.btnLogin img {
+  display: block;
+  width: 40px;
+  height: auto;
+  position: absolute;
+  top: 15px;
+}
